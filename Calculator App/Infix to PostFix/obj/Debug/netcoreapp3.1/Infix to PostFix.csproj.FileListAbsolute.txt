@@ -1,0 +1,11 @@
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\obj\Debug\netcoreapp3.1\Infix to PostFix.csprojAssemblyReference.cache
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\obj\Debug\netcoreapp3.1\Infix to PostFix.AssemblyInfoInputs.cache
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\obj\Debug\netcoreapp3.1\Infix to PostFix.AssemblyInfo.cs
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\bin\Debug\netcoreapp3.1\Infix to PostFix.exe
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\bin\Debug\netcoreapp3.1\Infix to PostFix.deps.json
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\bin\Debug\netcoreapp3.1\Infix to PostFix.runtimeconfig.json
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\bin\Debug\netcoreapp3.1\Infix to PostFix.runtimeconfig.dev.json
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\bin\Debug\netcoreapp3.1\Infix to PostFix.dll
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\bin\Debug\netcoreapp3.1\Infix to PostFix.pdb
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\obj\Debug\netcoreapp3.1\Infix to PostFix.dll
+N:\0 A Level Comp\Random\c#\Calculator App\Infix to PostFix\obj\Debug\netcoreapp3.1\Infix to PostFix.pdb
