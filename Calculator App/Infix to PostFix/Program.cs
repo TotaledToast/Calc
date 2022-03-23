@@ -10,6 +10,7 @@ namespace Infix_to_PostFix
         {
             AddToList();
             ToPostFix(Stacks.Infix);
+            SolvePostFix(Stacks.Output);
         }
         static void AddToList()
         {
@@ -71,14 +72,37 @@ namespace Infix_to_PostFix
             {
                 Stacks.Output.Add(x);
             }
-            foreach (string x in Stacks.Output)
-            {
-                Console.Write(x + " ");
-            }
         }
-        static void SolvePostFix()
+        static void SolvePostFix(List<string> Input)
         {
-
+            List<string> OperatorsList = new List<string> { 
+                "/", "*", "-", "+"
+            };
+            for (int i = 0; i < Input.Count; i++)
+            {
+                if (OperatorsList.Contains(Input[i]) == true)
+                {
+                    switch (Input[i])
+                    {
+                        case "/":
+                            Input[i - 2] = (Convert.ToDouble(Input[i - 2]) / Convert.ToDouble(Input[i - 1])).ToString();
+                            break;
+                        case "*":
+                            Input[i - 2] = (Convert.ToDouble(Input[i - 2]) * Convert.ToDouble(Input[i - 1])).ToString();
+                            break;
+                        case "-":
+                            Input[i - 2] = (Convert.ToDouble(Input[i - 2]) - Convert.ToDouble(Input[i - 1])).ToString();
+                            break;
+                        case "+":
+                            Input[i - 2] = (Convert.ToDouble(Input[i - 2]) + Convert.ToDouble(Input[i - 1])).ToString();
+                            break;
+                    }
+                    Input.RemoveAt(i);
+                    Input.RemoveAt(i - 1);
+                    i = i - 2;
+                }
+            }
+            Console.WriteLine("\n" + Input[0]);
         }
     }
     class Stacks

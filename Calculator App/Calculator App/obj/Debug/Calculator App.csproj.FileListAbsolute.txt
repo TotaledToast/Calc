@@ -12,3 +12,18 @@ N:\0 A Level Comp\Random\c#\Calculator App\Calculator App\obj\Debug\Calculator_A
 N:\0 A Level Comp\Random\c#\Calculator App\Calculator App\obj\Debug\Calculator App.csproj.GenerateResource.cache
 N:\0 A Level Comp\Random\c#\Calculator App\Calculator App\obj\Debug\Calculator App.exe
 N:\0 A Level Comp\Random\c#\Calculator App\Calculator App\obj\Debug\Calculator App.pdb
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\bin\Debug\Calculator App.exe.config
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\bin\Debug\Calculator App.exe
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\bin\Debug\Calculator App.pdb
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App.csprojAssemblyReference.cache
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\MainWindow.g.cs
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\App.g.cs
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App_MarkupCompile.cache
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App_MarkupCompile.lref
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\MainWindow.baml
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App.g.resources
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator_App.Properties.Resources.resources
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App.csproj.GenerateResource.cache
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App.csproj.CoreCompileInputs.cache
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App.exe
+C:\Users\charl\Documents\0 A-Level Work\Comp\Code\Calc\Calculator App\Calculator App\obj\Debug\Calculator App.pdb
