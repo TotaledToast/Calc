@@ -32,19 +32,35 @@ namespace Infix_to_PostFix
         }
         static void ToPostFix(List<string> Infix)
         {
+            List<List<string>> PresidenceList = new List<List<string>> {
+                new List<string>(){"+","-","*","/"},
+                new List<string>(){"1","1","2","2"}
+            };
             foreach (string x in Infix)
             {
-                if (x == "+" || x == "-")
+                if(PresidenceList[0].Contains(x))
                 {
-                    if (Stacks.Operators[Stacks.Operators.Count - 1] == "+" || Stacks.Operators[Stacks.Operators.Count - 1] == "-")
+                    if (Stacks.Operators.Count == 0)
                     {
-                        Stacks.Output.Add(Stacks.Operators[Stacks.Operators.Count - 1]);
-                        Stacks.Operators.RemoveAt(Stacks.Operators.Count - 1);
+                        Stacks.Operators.Add(x);
                     }
-                }
-                else if (x == "*" || x == "/")
-                {
-
+                    else
+                    {
+                        bool StackEnd = false;
+                        do
+                        {
+                            if (Convert.ToInt32(PresidenceList[1][PresidenceList[0].IndexOf(Stacks.Operators.Last())]) < Convert.ToInt32(PresidenceList[1][PresidenceList[0].IndexOf(x)]))
+                            {
+                                StackEnd = true;
+                            }
+                            else
+                            {
+                                Stacks.Output.Add(Stacks.Operators.Last());
+                                Stacks.Operators.Remove(Stacks.Operators.Last());
+                            }
+                        } while (StackEnd == false && Stacks.Operators.Count > 0);
+                        Stacks.Operators.Add(x);
+                    }
                 }
                 else
                 {
@@ -53,13 +69,11 @@ namespace Infix_to_PostFix
             }
             foreach (string x in Stacks.Operators)
             {
-                Console.Write(x + " ");
-                Console.Write("\n");
+                Stacks.Output.Add(x);
             }
             foreach (string x in Stacks.Output)
             {
                 Console.Write(x + " ");
-                Console.Write("\n");
             }
         }
         static void SolvePostFix()

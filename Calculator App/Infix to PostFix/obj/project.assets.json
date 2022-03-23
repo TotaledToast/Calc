@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\s6cyoung\\.nuget\\packages\\": {}
+    "C:\\Users\\charl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "N:\\0 A Level Comp\\Random\\c#\\Calculator App\\Infix to PostFix\\Infix to PostFix.csproj",
+      "projectUniqueName": "C:\\Users\\charl\\Documents\\0 A-Level Work\\Comp\\Code\\Calc\\Calculator App\\Infix to PostFix\\Infix to PostFix.csproj",
       "projectName": "Infix to PostFix",
-      "projectPath": "N:\\0 A Level Comp\\Random\\c#\\Calculator App\\Infix to PostFix\\Infix to PostFix.csproj",
-      "packagesPath": "C:\\Users\\s6cyoung\\.nuget\\packages\\",
-      "outputPath": "N:\\0 A Level Comp\\Random\\c#\\Calculator App\\Infix to PostFix\\obj\\",
+      "projectPath": "C:\\Users\\charl\\Documents\\0 A-Level Work\\Comp\\Code\\Calc\\Calculator App\\Infix to PostFix\\Infix to PostFix.csproj",
+      "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\charl\\Documents\\0 A-Level Work\\Comp\\Code\\Calc\\Calculator App\\Infix to PostFix\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s6cyoung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
