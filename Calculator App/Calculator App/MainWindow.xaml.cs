@@ -121,7 +121,8 @@ namespace Calculator_App
 
         private void ClearButton_Click(object sender, RoutedEventArgs e)
         {
-            Stacks.Operations.Clear();
+            ListClear();
+            Stacks.CurrentNumber = "";
             CalculationBox.Text = "";
         }
         private void AddToCalculationBox(string Input)
